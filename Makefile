@@ -42,11 +42,15 @@ ps: ## view docker processes
 	U_ID=${UID} docker ps
 
 services: ## debug:autowiring
-	U_ID=${UID} docker-compose exec ${DOCKER_APP} php bin/console debug:autowiring
+	U_ID=${UID} docker exec -it ${DOCKER_APP} bin/console debug:autowiring
+
+fixture: ## fixtures
+	U_ID=${UID} docker exec -it ${DOCKER_APP} bin/console doctrine:fixtures:load --append
 
 project-init: ## Init project First
 	U_ID=${UID} docker-compose up -d && docker exec -it ${DOCKER_APP} composer install
-	U_ID=${UID} docker exec -it ${DOCKER_APP} php bin/console doctrine:database:create
-	U_ID=${UID} docker exec -it ${DOCKER_APP} php bin/console doctrine:schema:create
+	U_ID=${UID} docker exec -it ${DOCKER_APP} bin/console doctrine:database:create
+	U_ID=${UID} docker exec -it ${DOCKER_APP} bin/console doctrine:schema:create
+	U_ID=${UID} docker exec -it ${DOCKER_APP} bin/console doctrine:fixtures:load --append
 
-.PHONY: run stop restart build ssh-app log-app ps composer-install test services project-init
+.PHONY: run stop restart build ssh-app log-app ps composer-install test services project-init fixture
