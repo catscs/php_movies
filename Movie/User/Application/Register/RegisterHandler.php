@@ -23,7 +23,7 @@ class RegisterHandler
         $this->userRepository = $userRepository;
     }
 
-    public function __invoke(RegisterCommand $command)
+    public function __invoke(RegisterCommand $command): RegisterResponse
     {
         $user = UserBuilder::create(
             $command->getUsername(),

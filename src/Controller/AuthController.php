@@ -30,13 +30,7 @@ class AuthController extends AbstractController
 
         $form->handleRequest($request);
         if ($form->isSubmitted() && $form->isValid()) {
-            $command = new RegisterCommand(
-                $user->getEmail(),
-                $user->getUsername(),
-                $user->getPlainPassword(),
-                $user->getRoles()
-            );
-
+            $command = new RegisterCommand($user->getEmail(), $user->getUsername(), $user->getPlainPassword(), $user->getRoles());
             $response = $registerHandler($command);
             if ($response->isStatus()) return $this->redirectToRoute('login');
         }

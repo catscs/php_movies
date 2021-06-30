@@ -7,6 +7,7 @@ namespace Movie\User\Infrastructure;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\ORM\ORMException;
 use Doctrine\Persistence\ManagerRegistry;
+use Movie\Shared\Logger\LoggerManager;
 use Movie\User\Domain\User;
 use Movie\User\Domain\UserRepository;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
@@ -42,7 +43,7 @@ class DoctrineRepository extends ServiceEntityRepository implements UserReposito
             $this->getEntityManager()->flush();
             return true;
         } catch (ORMException $e) {
-
+            LoggerManager::create()->logError($e->getMessage());
         }
 
     }

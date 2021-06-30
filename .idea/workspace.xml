@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d76c74f7-214f-430c-89c3-779872734144" name="Default Changelist" comment="" />
+    <list default="true" id="d76c74f7-214f-430c-89c3-779872734144" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie/User/Application/Register/RegisterHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Movie/User/Application/Register/RegisterHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie/User/Infrastructure/DoctrineRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/Movie/User/Infrastructure/DoctrineRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/LoginFormAuthenticator.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +18,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -152,13 +163,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Movie" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Movie" />
       <recent name="$PROJECT_DIR$/templates/auth" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -182,7 +194,8 @@
       <option name="presentableId" value="Default" />
       <updated>1624992359550</updated>
       <workItem from="1624992360564" duration="3872000" />
-      <workItem from="1625032556471" duration="12967000" />
+      <workItem from="1625032556471" duration="17463000" />
+      <workItem from="1625064292826" duration="1300000" />
     </task>
     <servers />
   </component>
@@ -195,25 +208,34 @@
     </state>
     <state x="1093" y="452" key="#com.intellij.ide.util.MemberChooser/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625051762149" />
     <state x="3653" y="452" key="#com.intellij.ide.util.MemberChooser/2560.25.2560.1415/0.25.2560.1415@2560.25.2560.1415" timestamp="1624995468763" />
-    <state x="1018" y="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625051619179">
+    <state x="1036" y="444" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1625062840494">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="1018" y="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625051619179" />
+    <state x="1036" y="444" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625062840494" />
+    <state x="1018" y="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1625063216757">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1018" y="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625063216757" />
     <state x="3578" y="491" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/2560.25.2560.1415/0.25.2560.1415@2560.25.2560.1415" timestamp="1624996109112" />
-    <state x="3628" y="662" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1624995427868">
-      <screen x="2560" y="25" width="2560" height="1415" />
+    <state x="1068" y="662" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1625062739418">
+      <screen x="0" y="25" width="2560" height="1415" />
     </state>
+    <state x="1068" y="662" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625062739418" />
     <state x="3628" y="662" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/2560.25.2560.1415/0.25.2560.1415@2560.25.2560.1415" timestamp="1624995427868" />
-    <state x="1010" y="462" key="NewPhpClassDialog" timestamp="1625037931317">
+    <state x="1010" y="462" key="NewPhpClassDialog" timestamp="1625064518915">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="1010" y="462" key="NewPhpClassDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625037931317" />
+    <state x="1010" y="462" key="NewPhpClassDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625064518915" />
     <state x="3570" y="462" key="NewPhpClassDialog/2560.25.2560.1415/0.25.2560.1415@2560.25.2560.1415" timestamp="1624995320759" />
-    <state x="789" y="368" key="SettingsEditor" timestamp="1625048557545">
+    <state x="789" y="368" key="SettingsEditor" timestamp="1625065594542">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="789" y="368" key="SettingsEditor/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625048557545" />
+    <state x="789" y="368" key="SettingsEditor/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625065594542" />
     <state x="3349" y="368" key="SettingsEditor/2560.25.2560.1415/0.25.2560.1415@2560.25.2560.1415" timestamp="1624996850660" />
+    <state x="1124" y="516" key="refactoring.ChangeSignatureDialog" timestamp="1625062864583">
+      <screen x="0" y="25" width="2560" height="1415" />
+    </state>
+    <state x="1124" y="516" key="refactoring.ChangeSignatureDialog/2560.25.2560.1415/0.25.2560.1415@0.25.2560.1415" timestamp="1625062864583" />
     <state x="945" y="345" key="run.anything.popup" timestamp="1625050616849">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
